@@ -63,10 +63,15 @@ The purpose of this project is to strengthen core Python programming skills by b
 
 ---
 
-**Author:** Dhanush K (xDK0d3r) 
+---
+
+## 👤 Project Information
+
+**Author:** Dhanush K (xDK0d3r)
+
 **Project Type:** Beginner Python Project
 
-## 📌 Status
+**Status:** ✅ Feature Complete
 
 > [!NOTE]
 > This project is **feature-complete** for its current scope. Future enhancements may be added in later versions.
