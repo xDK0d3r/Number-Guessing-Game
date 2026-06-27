@@ -5,20 +5,35 @@ print("Welcome to the Number Guessing Game!")
 # Random Number Generation
 random_number = random.randint(1,100)
 
+# Getting User input and validate
+def get_user_input() :
+    while True :
+      try :
+         # User input
+         user_guess = int(input("Please Enter the Guessing Number : "))
+      except ValueError :
+         print("Please Enter the valid Whole Number (1 - 100)")
+         continue
+        
+       # Range Validation
+      if 1 <= user_guess <= 100 :
+         return user_guess
+      else :
+         print("Please Enter the Whole number between 1 and 100")
+         continue
+ 
+         
 # Game Play fun
-def game_play (random_number) :
-     # User input
-     user_guess = int(input("Please Enter the Guessing Number : "))
-    
-
+def game_play (random_number) :     
+    user_guess = get_user_input()
     # Game Flow
-     if random_number < user_guess :
+    if random_number < user_guess :
          print("Your Guess was Big!")
          return False
-     elif random_number > user_guess :
+    elif random_number > user_guess :
          print("Your Guess was Small!")
          return False
-     else :
+    else :
          return True
 
 
