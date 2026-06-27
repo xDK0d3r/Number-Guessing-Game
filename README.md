@@ -63,8 +63,6 @@ The purpose of this project is to strengthen core Python programming skills by b
 
 ---
 
----
-
 ## 👤 Project Information
 
 **Author:** Dhanush K (xDK0d3r)
