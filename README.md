@@ -1,6 +1,6 @@
 # 🎯 Number Guessing Game
 
-A beginner-friendly Python console game where the player tries to guess a randomly generated number within a limited number of attempts. The game provides helpful hints after each guess and tracks the player's progress throughout the session.
+A beginner-friendly Python console game where the player tries to guess a randomly generated number within a limited number of attempts. The game provides high/low hints after each guess and validates user input for a smooth gameplay experience.
 
 ## 📖 About
 
@@ -11,10 +11,8 @@ This project was created to practice fundamental Python programming concepts thr
 - Random number generation
 - User input handling
 - High/Low guessing hints
-- Attempt tracking
 - Win and lose conditions
 - Input validation
-- Replay functionality
 - Simple command-line interface
 
 ## 🛠️ Technologies Used
@@ -48,17 +46,16 @@ python3 main.py
 2. Enter a number when prompted.
 3. The game will tell you whether your guess is too high or too low.
 4. Continue guessing until you find the correct number or run out of attempts.
-5. Choose to play again or exit.
 
 ## 📈 Future Improvements
 
+- Replay functionality
 - Multiple difficulty levels
 - Score system
 - Best score tracking
 - Time-based challenges
 - Statistics dashboard
 - Save high scores to a file
-- and more...
 
 ## 🎯 Learning Goal
 
@@ -66,6 +63,11 @@ The purpose of this project is to strengthen core Python programming skills by b
 
 ---
 
-**Author:** xDK0d3r  
-**Project Type:** Beginner Python Project  
-**Status:** In Development 🚧
+**Author:** Dhanush K (xDK0d3r)
+**Project Type:** Beginner Python Project
+
+## 📌 Status
+
+> [!NOTE]
+> This project is **feature-complete** for its current scope. Future enhancements may be added in later versions.
+
